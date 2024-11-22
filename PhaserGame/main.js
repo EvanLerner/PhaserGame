@@ -20,15 +20,15 @@ class GameScene extends Phaser.Scene {
   }
 
   preload() {
-    this.load.image("bg", "/assets/bg.png")
-    this.load.image("apple", "/assets/apple.png")
-    this.load.image('cow', '/assets/animals/cow.png');
-    this.load.image('donkey', '/assets/animals/donkey.png');
-    this.load.image('chicken', '/assets/animals/chicken.png');
-    this.load.image('rooster', '/assets/animals/rooster.png');
-    this.load.image('chick', '/assets/animals/chick.png');
-    this.load.image('horse', '/assets/animals/horse.png');
-    this.load.image('pig', '/assets/animals/pig.png');
+    this.load.image("bg", "assets/bg.png")
+    this.load.image("apple", "assets/apple.png")
+    this.load.image('cow', 'assets/animals/cow.png');
+    this.load.image('donkey', 'assets/animals/donkey.png');
+    this.load.image('chicken', 'assets/animals/chicken.png');
+    this.load.image('rooster', 'assets/animals/rooster.png');
+    this.load.image('chick', 'assets/animals/chick.png');
+    this.load.image('horse', 'assets/animals/horse.png');
+    this.load.image('pig', 'assets/animals/pig.png');
     
     
   }
